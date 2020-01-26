@@ -1,0 +1,16 @@
+<ol class="theatrelist" style="counter-reset: start-from {{ theatrelist.length + 1 }}">
+  {% for entry in theatrelist | reverse %}
+    <li class="theatrelist-item{% if entry.url == url %} theatrelist-item-active{% endif %}">
+      <a href="{{ entry.url | url }}" class="theatrelist-link">
+        <div class="row">
+          <div class="column">
+            <img src="{{ entry.data.featuredimage | url }}" alt="entry.data.title">
+          </div>
+          <div class="column _6">
+            <p>{{ entry.data.description }}</p>
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ol>

@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <h1>{{ title }}</h1>
+  {{ content | safe}}
+
+  <div class="theatrelist-container">
+    {% set theatrelist = collections.interesting %}
+    {% include "components/interestinglist.njk" %}
+  </div>
+</article>

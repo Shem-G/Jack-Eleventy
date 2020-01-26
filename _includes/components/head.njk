@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="Description" content="Sketches, Scratches & Scattered Thoughts">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% set css %}
+    {% include "base.css" %}
+  {% endset %}
+
+  <style>
+    {{css | cssmin | safe}}
+  </style>
+  <title>
+    {{ title }} - Sketches, Scratches & Scattered Thoughts
+  </title>
+</head>
