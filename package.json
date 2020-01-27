@@ -1,0 +1,37 @@
+
+{
+  "name": "Sketches, Scratches and Scattered Thoughts",
+  "version": "0.0.1",
+  "description": "Sketches, Scratches and Scattered Thoughts",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KoaBrook/Jack-Eleventy.git"
+  },
+  "author": {
+    "name": "Koa Brook",
+    "email": "koabrook@gmail.com",
+    "url": "https://koabrook.com/"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-navigation": "^0.1.1",
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
+    "eleventy-plugin-local-images": "^0.3.0",
+    "eleventy-plugin-pwa": "^1.0.8",
+    "jquery": "^3.4.1",
+    "luxon": "^1.12.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.1",
+    "turbolinks": "^5.2.0"
+  }
+}

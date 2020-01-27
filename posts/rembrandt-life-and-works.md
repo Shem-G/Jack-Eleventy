@@ -104,5 +104,4 @@ Well, thanks for the story. Although I feel a little sad now. Hey, I’d like to
 Yeah, of course! But I think we’ve covered enough for today, so why don’t you come back tomorrow and I’ll talk more about his specific works?
 
 Sounds good! Thanks. And you guys don’t forget to come back again too. Hopefully it won’t be quite so sad tomorrow!
-
 ​
